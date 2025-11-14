@@ -82,7 +82,7 @@
 <body>
   <header>
     <h1>German Model 101 Workshop</h1>
-    <p>Workshop introductiv în modelul german</p>
+    <p>Workshop de inițiere în modelul german</p>
   </header>
 
   <div class="container">
@@ -141,9 +141,32 @@
     </table>
 
     <h2>Participare și înregistrare</h2>
-    <p>
-      Participarea este gratuită, dar necesită <strong>înregistrare prealabilă</strong>. Pentru înscriere și detalii suplimentare, vă rugăm să accesați linkul de mai jos:
-    </p>
+    <p>Participarea este gratuită, dar necesită <strong>înregistrare prealabilă</strong>. Completați formularul de mai jos pentru a vă înscrie.</p>
+
+    <form action="https://formspree.io/f/mldedgpo" method="POST" style="margin-top:20px;">
+      <label>Nume complet:<br>
+        <input type="text" name="nume" required style="width:100%; padding:8px; margin-top:5px;">
+      </label><br><br>
+
+      <label>Email:<br>
+        <input type="email" name="email" required style="width:100%; padding:8px; margin-top:5px;">
+      </label><br><br>
+
+      <label>Selectați modulele la care doriți să participați:<br>
+        <select name="module" multiple required style="width:100%; padding:8px; margin-top:5px;">
+          <option value="Workshop #1">Workshop #1 – 22.11.2025</option>
+          <option value="Workshop #2">Workshop #2 – 13.12.2025</option>
+          <option value="Workshop #3">Workshop #3 – TBD</option>
+          <option value="Workshop #4">Workshop #4 – TBD</option>
+        </select>
+      </label><br><br>
+
+      <label>Mesaj (opțional):<br>
+        <textarea name="mesaj" rows="4" style="width:100%; padding:8px; margin-top:5px;"></textarea>
+      </label><br><br>
+
+      <button type="submit" style="padding:10px 20px; background:#004d7a; color:#fff; border:none; border-radius:5px; cursor:pointer;">Trimite</button>
+    </form>
     <p>
       <a class="button" href="https://github.com/banica/german/wiki">Formular de înregistrare și detalii</a>
     </p>
@@ -160,7 +183,7 @@
     <p>German Model 101 Workshop își propune să:</p>
     <ul>
       <li>Dezvolte cunoștințele participanților despre modelul german</li>
-      <li>Faciliteze colaborarea între tineri și profesioniști din România și Germania</li>
+      <li>Foster colaborarea între tineri și profesioniști din România și Germania</li>
       <li>Dezvolte competențe practice și culturale aplicabile în educație și industrie</li>
       <li>Întărească legăturile culturale și profesionale între Germania și România</li>
     </ul>
